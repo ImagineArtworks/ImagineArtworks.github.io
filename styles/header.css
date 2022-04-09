@@ -15,7 +15,6 @@
 .logo-container {
     width: 4rem;
     min-width: 4rem;
-    margin: .5rem;
     margin-left: 2rem;
     margin-right: 3rem;
 
@@ -81,20 +80,11 @@
     align-items: center;
     justify-content: right;
     margin-right: 2rem;
-    
+
 }
 
 .social-link {
-    width: 2rem;
-    height: 2rem;
     padding: 1rem;
-    
-}
-
-.social-link a {
-    display: block;
-    height: 100%;
-    width: 100%;
 }
 
 .social-link a:hover {
