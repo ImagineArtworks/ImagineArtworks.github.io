@@ -14,8 +14,10 @@ body {
 
 .logo-container {
     width: 4rem;
-    margin: .5rem;
     min-width: 4rem;
+    margin: .5rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
 
 }
 
