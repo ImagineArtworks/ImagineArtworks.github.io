@@ -1,0 +1,45 @@
+.top-section {
+    color: white;
+    margin: 0;
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: radial-gradient(black,95%,rgb(69, 4, 4));
+
+}
+
+.top-section h1,
+.top-section h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.top-greeting {
+    padding: 5rem 0;
+    margin-left: 20%;
+    text-align: center;
+
+
+}
+
+.top-greeting h1 {
+    font-size: 4rem;
+    background: linear-gradient(to bottom right, white, white, rgb(238, 186, 186), rgb(137, 103, 103), darkred);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: Quintessential, cursive;
+}
+
+.top-greeting h2 {
+    background: linear-gradient(to top left, white, white, rgb(238, 186, 186), rgb(137, 103, 103), darkred);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
