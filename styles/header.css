@@ -46,11 +46,18 @@
     font-weight: bold;
     list-style: none;
     padding: .5rem;
-    transition: border linear 0.1s;
+    transition: border linear .1s;
 }
 
-.nav-list li:hover {
-    border-bottom-width: 0.18rem;
+.nav-list .inactive-page:hover {
+    border-bottom-width: .2rem;
+    padding-bottom: .3rem;
+    border-bottom-color: lightpink;
+    border-bottom-style: solid;
+}
+
+.active-page {
+    border-bottom-width: .2rem;
     padding-bottom: .3rem;
     border-bottom-color: lightpink;
     border-bottom-style: solid;
