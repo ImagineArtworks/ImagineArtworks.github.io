@@ -31,7 +31,7 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
-    font-family: Quintessential, cursive;
+    font-family: 'Quintessential', cursive;
 }
 
 .top-greeting h2 {
