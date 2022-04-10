@@ -57,10 +57,7 @@
 }
 
 .active-page {
-    border-bottom-width: .2rem;
-    padding-bottom: .3rem;
-    border-bottom-color: lightpink;
-    border-bottom-style: solid;
+    background-color: pink;
 }
 
 .nav-link {
@@ -71,9 +68,8 @@
     display: block;
 }
 
-.nav-link:hover {
+.inactive-page .nav-link:hover {
     color: lightpink;
-
 }
 
 .nav-link:active {
@@ -96,4 +92,69 @@
 
 .social-link a:hover {
     opacity: .5;
+}
+
+/* burger/nav down */
+.burger {
+    color :white;
+    display: none;
+}
+
+.burger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: darkred;
+}
+
+/* Media queries */
+
+@media (max-width: 700px) {
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: none;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-list li {
+       padding: 0;
+    }
+
+    .nav-list .inactive-page:hover {
+        border: none;
+        padding: 0;
+    }
+
+    .socials-container {
+        display: none;
+    }
+
+    .burger {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 1.5rem;
+        right: 2rem;
+        display: flex;   
+        flex-direction: column; 
+        justify-content: space-evenly;  
+    }
+
+    .burger:hover {
+        cursor: pointer;
+        opacity: .7;
+    }
+
+    .header .active {
+        display: block;
+    }
 }
