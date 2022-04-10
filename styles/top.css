@@ -26,12 +26,27 @@
 }
 
 .top-greeting h1 {
-    font-size: 5vw;
+    font-size: 5rem;
     font-family: "Quintessential", cursive;
     
 }
 
 .top-greeting h2 {
-    font-size: 1.8vw;
-   
+    font-size: 1.8rem;
 }
+
+/* Media queries for font */
+
+@media screen and (max-width: 768px) {
+    .top-greeting h1 {
+        font-size: 2rem;
+    }
+
+    .top-greeting h2 {
+        font-size: 1rem;
+    }
+}
+
+
+
+
