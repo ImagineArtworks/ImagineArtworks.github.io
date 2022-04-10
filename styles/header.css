@@ -136,6 +136,8 @@
 
     .socials-container {
         display: none;
+        width: 100%;
+        justify-content: center;
     }
 
     .burger {
@@ -154,7 +156,11 @@
         opacity: .7;
     }
 
-    .header .active {
+    .header .active-bar {
         display: block;
+    }
+
+    .header .active-socials {
+        display: flex;
     }
 }
