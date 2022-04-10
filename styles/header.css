@@ -57,10 +57,7 @@
 }
 
 .active-page {
-    border-bottom-width: .2rem;
-    padding-bottom: .3rem;
-    border-bottom-color: lightpink;
-    border-bottom-style: solid;
+    background-color: pink;
 }
 
 .nav-link {
@@ -71,9 +68,8 @@
     display: block;
 }
 
-.nav-link:hover {
+.inactive-page .nav-link:hover {
     color: lightpink;
-
 }
 
 .nav-link:active {
