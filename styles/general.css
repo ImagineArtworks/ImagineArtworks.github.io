@@ -4,3 +4,18 @@ body {
     font-size: 1.2rem;
 }
 
+@media screen and (max-width:700px) {
+    body {
+        font-size: 0.6rem;
+    }
+}
+
+
+/* REMOVE THIS SHIT LATER TEMP STYLE FOR TEMP INFO ELEMNET */
+
+.construction-info {
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 3rem;
+}
