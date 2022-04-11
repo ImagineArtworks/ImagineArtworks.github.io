@@ -15,7 +15,6 @@
 .top-greeting {
     padding: 10rem;
     margin: 0 auto;
-    width: 50%;
     text-align: center;
     background: linear-gradient(to bottom right, white, 60%, darkred, rgb(81, 2, 2));
     background-clip: text;
