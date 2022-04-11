@@ -11,8 +11,9 @@
     <!-- Linking styles -->
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 
- 
+
 
     <!-- Google fonts -->
 
@@ -36,7 +37,7 @@
         <nav class="nav-bar">
             <ul class="nav-list">
                 <li class="inactive-page"><a class="nav-link" href="../index.html" title="Home">Home</a></li>
-                <li class="inactive-page"><a class="nav-link" href="../pages/gallery.html" title="My Artworks">Gallery</a></li>
+                <li class="inactive-page"><a class="nav-link" href="../pages/gallery.html"title="My Artworks">Gallery</a></li>
                 <li class="inactive-page"><a class="nav-link" href="../pages/about.html" title="Know Me">About</a></li>
                 <li class="active-page"><a class="nav-link" href="contact.html" title="Contact Me">Contact</a></li>
             </ul>
@@ -67,10 +68,29 @@
             <div class="bar"></div>
         </div>
     </header>
-    <p class="construction-info">Coming soon</p><!--REMOVE LATER ONLY FOR INFO ABOUT THE WEBSITE :3-->
+
+    <div class="form-section">
+        <h1>Contact me</h1>
+        <form>
+            <div class="form-info">
+                <div class="info-field">
+                    <label for="name-input">Your Name:</label>
+                    <input id="name-input" type="text" name="name" required>
+                </div>
+                <div class="info-field">
+                    <label for="email-input">Your Email:</label>
+                    <input id="email-input" type="email" name="email" required>
+                </div>
+            </div>
+            <textarea id="message-input" placeholder="Your Message" name="message" rows="20" required></textarea>
+        </form>
+        <button class="send-button">Send</button>
+    </div>
+
     <!-- jquery cdn -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
+
+    <script src="../scripts/contact.js"></script>
     <script src="../scripts/main.js"></script>
 </body>
 
