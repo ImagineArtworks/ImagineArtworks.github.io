@@ -1,4 +1,5 @@
 /* Form stuff */
+
 .form-section {
     color: white;
     justify-content: center;
@@ -106,6 +107,6 @@ form textarea {
 /* Media queries  */
 @media screen and (max-width:1180px) {
     .form-section {
-        width: 100%;
+        width: 80%;
     }
 }
