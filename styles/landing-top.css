@@ -37,11 +37,26 @@
 /* Media queries for font */
 
 @media screen and (max-width: 768px) {
+    .top-greeting {
+        padding: 6rem 3rem;
+    }
     .top-greeting h1 {
+        font-size: 3rem;
+    }
+
+    .top-greeting h2 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .top-greeting h1 {
+        font-size: 2.2rem;
     }
 
     .top-greeting h2 {
         font-size: 1rem;
     }
 }
+
+
