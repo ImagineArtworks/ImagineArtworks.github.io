@@ -1,3 +1,4 @@
+/* Form stuff */
 .form-section {
     color: white;
     justify-content: center;
@@ -8,6 +9,7 @@
     margin: 10rem auto;
     width: 30%;
     box-shadow: 0px 0px 10px darkred;
+    border-radius: 2rem;
     padding: 1rem;
 }
 
@@ -59,10 +61,7 @@ form textarea {
     border: none;
 }
 
-.send-button {
-    width: 30%;
-    height: 3rem;
-    margin: 1rem auto;
+.contact-btn {
     border: none;
     background-color: darkred;
     border-radius: 5rem;
@@ -73,12 +72,36 @@ form textarea {
     box-shadow: 2px 3px 10px rgba(139, 0, 0.2);
 }
 
-.send-button:hover {
+.contact-btn:hover {
     opacity: .8;
 }
 
-.send-button:active {
+.contact-btn:active {
     opacity: .5;
     box-shadow: none;
     transform: translate(2px, 3px);
 }
+
+.send-btn {
+    width: 30%;
+    height: 3rem;
+    margin: 1rem auto;
+    
+}
+
+
+/* Success-page styles */
+.suc-message {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.suc-message h1 {
+    margin: 0;
+}
+
+.suc-home-btn {
+    padding: 1rem 2rem;
+}
+
+
