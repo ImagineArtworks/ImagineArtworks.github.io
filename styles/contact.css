@@ -86,9 +86,8 @@ form textarea {
     width: 30%;
     height: 3rem;
     margin: 1rem auto;
-    
-}
 
+}
 
 /* Success-page styles */
 .suc-message {
@@ -104,4 +103,9 @@ form textarea {
     padding: 1rem 2rem;
 }
 
-
+/* Media queries  */
+@media screen and (max-width:1180px) {
+    .form-section {
+        width: 100%;
+    }
+}
