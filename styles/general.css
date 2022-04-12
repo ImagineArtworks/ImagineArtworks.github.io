@@ -8,15 +8,11 @@ body {
 
 @media screen and (max-width:768px) {
     body {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 }
 
-@media screen and (max-width:768px) {
-    body {
-        font-size: 0.5rem;
-    }
-}
+
 
 
 /* REMOVE THIS SHIT LATER TEMP STYLE FOR TEMP INFO ELEMNET */
